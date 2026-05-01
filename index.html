@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1 class="logo">Gallery Studio</h1>
+</header>
+
+<!-- Filters -->
+<div class="filters">
+  <button onclick="filterImages('all')">All</button>
+  <button onclick="filterImages('nature')">Nature</button>
+  <button onclick="filterImages('city')">City</button>
+  <button onclick="filterImages('animals')">Animals</button>
+  <button onclick="filterImages('tech')">Tech</button>
+  <button onclick="filterImages('people')">People</button>
+  <button onclick="filterImages('food')">Food</button>
+  <button onclick="filterImages('travel')">Travel</button>
+  <button onclick="filterImages('cars')">Cars</button>
+  <button onclick="filterImages('sports')">Sports</button>
+  <button onclick="filterImages('space')">Space</button>
+  <button onclick="filterImages('architecture')">Architecture</button>
+  <button onclick="filterImages('abstract')">Abstract</button>
+  <button onclick="filterImages('night')">Night</button>
+  <button onclick="filterImages('art')">Art</button>
+</div>
+
+<!-- Masonry Gallery -->
+<div class="gallery">
+
+  <div class="card nature"><img src="https://picsum.photos/id/11/500/600"></div>
+  <div class="card sports"><img src="https://images.pexels.com/photos/32681170/pexels-photo-32681170.jpeg" width="400" height="500"></div>
+  <div class="card city"><img src="https://picsum.photos/id/43/500/500"></div>
+  <div class="card art"><img src="https://picsum.photos/id/564/500/450"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/559/500/600"></div>
+  <div class="card people"><img src="https://picsum.photos/id/441/500/700"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/40/500/600"></div>
+  <div class="card tech"><img src="https://images.pexels.com/photos/8728388/pexels-photo-8728388.jpeg" width="600" height="400"></div>
+  <div class="card tech"><img src="https://picsum.photos/id/48/500/550"></div>
+  <div class="card food"><img src="https://picsum.photos/id/674/500/650"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/360/500/600"></div>
+  <div class="card people"><img src="https://picsum.photos/id/64/500/700"></div>
+  <div class="card architecture"><img src="https://picsum.photos/id/444/550/550"></div>
+  <div class="card food"><img src="https://picsum.photos/id/292/500/550"></div>
+  <div class="card sports"><img src="https://images.pexels.com/photos/33879961/pexels-photo-33879961.jpeg" width="600" height="700"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/45/500/650"></div>
+  <div class="card art"><img src="https://picsum.photos/id/618/500/450"></div>
+  <div class="card cars"><img src="https://picsum.photos/id/111/500/400"></div>
+  <div class="card abstract"><img src="https://picsum.photos/id/210/500/600"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/74/500/500"></div>
+  <div class="card art"><img src="https://picsum.photos/id/223/500/450"></div>
+  <div class="card space"><img src="https://picsum.photos/id/120/500/600"></div>
+  <div class="card architecture"><img src="https://picsum.photos/id/57/500/600"></div>
+  <div class="card abstract"><img src="https://picsum.photos/id/30/500/500"></div>
+  <div class="card art"><img src="https://picsum.photos/id/508/500/450"></div>
+  <div class="card night"><img src="https://picsum.photos/id/84/500/650"></div>
+  <div class="card people"><img src="https://picsum.photos/id/1027/500/550"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/228/500/600"></div>
+  <div class="card art"><img src="https://picsum.photos/id/56/500/600"></div>
+  <div class="card city"><img src="https://picsum.photos/id/49/500/500"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/25/500/600"></div>
+  <div class="card city"><img src="https://picsum.photos/id/242/500/700"></div>
+  <div class="card cars"><img src="https://picsum.photos/id/133/500/400"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/29/500/550"></div>
+  <div class="card people"><img src="https://picsum.photos/id/1013/500/600"></div>
+  <div class="card night"><img src="https://picsum.photos/id/195/500/600"></div>
+  <div class="card city"><img src="https://picsum.photos/id/1040/500/500"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/219/500/600"></div>
+  <div class="card food"><img src="https://picsum.photos/id/431/500/600"></div>
+  <div class="card art"><img src="https://picsum.photos/id/526/500/450"></div>
+  <div class="card cars"><img src="https://picsum.photos/id/1071/500/600"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/152/500/650"></div>
+  <div class="card cars"><img src="https://images.pexels.com/photos/19200994/pexels-photo-19200994.jpeg" width="600" height="700"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/200/500/550"></div>
+  <div class="card night"><img src="https://picsum.photos/id/122/500/650"></div>
+  <div class="card city"><img src="https://picsum.photos/id/371/500/500"></div>
+  <div class="card tech"><img src="https://picsum.photos/id/96/500/600"></div>
+  <div class="card space"><img src="https://picsum.photos/id/537/500/500"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/164/500/650"></div>
+  <div class="card cars"><img src="https://picsum.photos/id/1072/500/500"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/103/500/550"></div>
+  <div class="card food"><img src="https://picsum.photos/id/493/500/650"></div>
+  <div class="card night"><img src="https://picsum.photos/id/579/500/650"></div>
+  <div class="card tech"><img src="https://images.pexels.com/photos/7561962/pexels-photo-7561962.jpeg" width="600" height="400"></div>
+  <div class="card people"><img src="https://picsum.photos/id/680/500/700"></div>
+  <div class="card tech"><img src="https://picsum.photos/id/160/500/500"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/50/500/500"></div>
+  <div class="card space"><img src="https://images.pexels.com/photos/18131771/pexels-photo-18131771.jpeg" width="550" height="550"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/163/500/700"></div>
+  <div class="card cars"><img src="https://picsum.photos/id/1070/500/550"></div>
+  <div class="card architecture"><img src="https://picsum.photos/id/290/500/550"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/1069/500/550"></div>
+  <div class="card city"><img src="https://picsum.photos/id/376/500/500"></div>
+  <div class="card space"><img src="https://picsum.photos/id/903/500/650"></div>
+  <div class="card sports"><img src="https://images.pexels.com/photos/33607496/pexels-photo-33607496.jpeg" width="600" height="700"></div>
+  <div class="card night"><img src="https://picsum.photos/id/249/500/650"></div>
+  <div class="card sports"><img src="https://picsum.photos/id/904/500/600"></div>
+  <div class="card people"><img src="https://picsum.photos/id/453/500/700"></div>
+  <div class="card food"><img src="https://picsum.photos/id/429/500/450"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/306/500/550"></div>
+  <div class="card city"><img src="https://picsum.photos/id/1067/500/600"></div>
+  <div class="card abstract"><img src="https://picsum.photos/id/23/500/550"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/258/500/550"></div>
+  <div class="card space"><img src="https://picsum.photos/id/974/500/550"></div>
+  <div class="card abstract"><img src="https://picsum.photos/id/21/500/600"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/89/500/600"></div>
+  <div class="card cars"><img src="https://images.pexels.com/photos/28986947/pexels-photo-28986947.jpeg" width="600" height="700"></div>
+  <div class="card people"><img src="https://picsum.photos/id/65/500/700"></div>
+  <div class="card space"><img src="https://picsum.photos/id/901/500/650"></div>
+  <div class="card city"><img src="https://picsum.photos/id/411/500/500"></div>
+  <div class="card people"><img src="https://picsum.photos/id/623/500/700"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/582/500/550"></div>
+  <div class="card tech"><img src="https://images.pexels.com/photos/13364791/pexels-photo-13364791.jpeg" width="600" height="700"></div>
+  <div class="card food"><img src="https://picsum.photos/id/488/500/500"></div>
+  <div class="card night"><img src="https://picsum.photos/id/232/500/650"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/309/500/700"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/237/500/550"></div>
+  <div class="card architecture"><img src="https://picsum.photos/id/315/500/550"></div>
+  <div class="card city"><img src="https://picsum.photos/id/274/500/500"></div>
+  <div class="card food"><img src="https://picsum.photos/id/425/500/450"></div>
+  <div class="card art"><img src="https://picsum.photos/id/167/500/600"></div>
+  <div class="card nature"><img src="https://picsum.photos/id/976/500/650"></div>
+  <div class="card tech"><img src="https://images.pexels.com/photos/19936701/pexels-photo-19936701.jpeg" width="600" height="600"></div>
+  <div class="card people"><img src="https://picsum.photos/id/996/500/700"></div>
+  <div class="card animals"><img src="https://picsum.photos/id/275/500/550"></div>
+  <div class="card night"><img src="https://picsum.photos/id/407/500/650"></div>
+  <div class="card abstract"><img src="https://picsum.photos/id/175/600/600"></div>
+  <div class="card food"><img src="https://picsum.photos/id/1080/500/600"></div>
+  <div class="card travel"><img src="https://picsum.photos/id/124/500/650"></div>
+  <div class="card art"><img src="https://picsum.photos/id/189/600/600"></div>
+  <div class="card sports"><img src="https://images.pexels.com/photos/35108641/pexels-photo-35108641.jpeg" width="1000" height="400"></div>
+
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  
+  <!-- Close button -->
+  <span onclick="closeLightbox()" class="close">×</span>
+
+  <!-- Left arrow icon -->
+  <div class="nav left" onclick="prevImage()">
+    &#10094;
+  </div>
+
+  <!-- Image -->
+  <img id="lightbox-img">
+
+  <!-- Right arrow icon -->
+  <div class="nav right" onclick="nextImage()">
+    &#10095;
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.95);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Image */
+.lightbox img {
+  max-width: 85%;
+  max-height: 85%;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  transition: 0.3s ease;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  z-index: 10;
+  transition: 0.2s;
+}
+
+.close:hover {
+  color: #ff4d4d;
+}
+
+/* Navigation arrows */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px 20px;
+  transition: 0.2s;
+  z-index: 10;
+}
+
+.nav:hover {
+  color: #00e5ff;
+  transform: translateY(-50%) scale(1.2);
+}
+
+/* Left */
+.nav.left {
+  left: 20px;
+}
+
+/* Right */
+.nav.right {
+  right: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+/* Header */
+.topbar {
+  text-align: center;
+  padding: 15px;
+  background: #1c1c1c;
+}
+
+/* Filters */
+.filters {
+  text-align: center;
+  padding: 15px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: #555;
+}
+
+/* Gallery */
+.gallery {
+  column-count: 4;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.03);
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  cursor: pointer;
+}
