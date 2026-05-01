@@ -63,7 +63,7 @@ gallery-studio/
 
 ---
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 
 - Image search functionality
 - Lazy loading for performance
