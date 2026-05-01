@@ -62,9 +62,9 @@ gallery-studio/
 git clone https://github.com/Kaveeshamalindi/Gallary-Studio.git
 ```
 
-2. Open index.html in your browser
+2. Open ```index.html``` in your browser
 
-**No installation or dependencies required.**
+**👉 No installation or dependencies required.**
 
 ---
 
