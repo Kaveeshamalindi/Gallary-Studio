@@ -6,8 +6,7 @@ It features category filtering, masonry-style layout, and a lightbox viewer with
 ---
 
 ## 🚀 Live Demo
-Once hosted via GitHub Pages:
-
+Once hosted via GitHub Pages: https://kaveeshamalindi.github.io/Gallary-Studio/
 
 ---
 
@@ -55,12 +54,12 @@ gallery-studio/
 
 ## 📦 Setup Instructions
 
-To run locally:
+**To run locally:**
 
 1. Download or clone the repository
 2. Open index.html in your browser
 
-No installation or dependencies required.
+- No installation or dependencies required.
 
 ---
 
@@ -71,4 +70,6 @@ No installation or dependencies required.
 - Drag/swipe support for mobile
 - Dark/light theme toggle
 - Backend image upload system
+
+---
 
