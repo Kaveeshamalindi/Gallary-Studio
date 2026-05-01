@@ -57,9 +57,14 @@ gallery-studio/
 **To run locally:**
 
 1. Download or clone the repository
+
+```
+git clone https://github.com/Kaveeshamalindi/Gallary-Studio.git
+```
+
 2. Open index.html in your browser
 
-- No installation or dependencies required.
+**No installation or dependencies required.**
 
 ---
 
