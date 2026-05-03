@@ -1,12 +1,16 @@
 # 🖼️ Modern Gallery Studio
 
-A responsive and interactive image gallery web application built using **HTML, CSS, and JavaScript**.  
-It features category filtering, masonry-style layout, and a lightbox viewer with navigation controls.
+A responsive and interactive image gallery web application built using **HTML, CSS, and JavaScript**. It features category filtering, masonry-style layout, and a lightbox viewer with navigation controls.
 
 ---
 
 ## 🚀 Live Demo
-Once hosted via GitHub Pages: https://kaveeshamalindi.github.io/Gallary-Studio/
+**Once hosted via GitHub Pages**: https://kaveeshamalindi.github.io/Gallary-Studio/
+<br> <br>
+
+<p align="center">
+  <img src="Images/img1.png" width="800">
+</p>
 
 ---
 
@@ -35,6 +39,7 @@ Once hosted via GitHub Pages: https://kaveeshamalindi.github.io/Gallary-Studio/
 ```
 gallery-studio/
 │
+├── Images # UI
 ├── index.html # Main webpage
 ├── styles.css # Styling file
 ├── script.js # Functionality (filter + lightbox)
