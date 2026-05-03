@@ -39,10 +39,10 @@ A responsive and interactive image gallery web application built using **HTML, C
 ```
 gallery-studio/
 │
-├── Images # UI
 ├── index.html # Main webpage
 ├── styles.css # Styling file
 ├── script.js # Functionality (filter + lightbox)
+├── Images # UI
 └── README.md # Project documentation
 ```
 
