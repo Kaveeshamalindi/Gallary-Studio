@@ -41,9 +41,9 @@ gallery-studio/
 │
 ├── index.html # Main webpage
 ├── styles.css # Styling file
-├── script.js # Functionality (filter + lightbox)
-├── Images # UI
-└── README.md # Project documentation
+├── script.js  # Functionality (filter + lightbox)
+├── Images     # UI
+└── README.md  # Project documentation
 ```
 
 ---
